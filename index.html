@@ -30,12 +30,22 @@
     }
     // 👉 CHALLENGE 2
     function mineSweeper(grid, x, y) {
-
-    }
+      if (x < 1 || x > 3 || y < 1 || y > 3) {
+        return "invalid coordinates"
+      }
+      if (x >= 1 || y <= 3) {
+        return "🟦 🥳"
+      }else
+       {return "🟥 💀"}
+      }
+      
+    
 
     // 👉 CHALLENGE 3
     function booleanize(obj) {
-
+      // if (obj !== 9) {
+      //   return "shorten all prop names to 9 chars or less"
+      // }
     }
 
     // 👉 CHALLENGE 4
